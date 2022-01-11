@@ -1,0 +1,50 @@
+  <body>
+      
+    <section>
+      <div class="inner"></div>
+    <section>
+        
+    <style>
+      section{
+          width: 400px;
+          height: 300px;
+          background: #D6D2D2;
+      }
+      .inner {
+        width: 150px;
+        height: 105px;
+        background: #081D60;
+        border-radius: 0 0 10px 10px;
+        position: absolute;
+        top: 150px;
+        left: 135px;
+      }
+      :before,:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .inner:before {
+        width: 78px;
+        height: 9px;
+        border-radius: 10px;
+        background: #C19167;
+      }
+      .inner:after {
+        width: 45px;
+        height: 49px;
+        border-radius: 15px 15px 0 0;
+        background: #C19167;
+        bottom: 0;
+      }
+      section:before {
+        border-width: 0 100px 100px;
+        border-style: solid;
+        border-color: transparent transparent #081D60;
+        top: 50px;
+        left: 210px;
+      }
+    </style>
+  </body>
+</html>
