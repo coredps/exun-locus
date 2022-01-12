@@ -1,0 +1,30 @@
+<div class="o">
+    <div class="i">
+        <p /><p /><p />
+        <p /><p /><p />
+        <p /><p /><p />
+        <p /><p /><p />
+    </div>
+</div>
+<style>
+    .o {
+        background: #F5D6B4;
+        width: 400px;
+        height: 300px;
+    }
+    .i {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    p {
+        background: #5C434C;
+        width: 76.33px;
+        height: 76.33px;
+        border-radius: 0 100px 0 0;
+        margin-left: 19px;
+        margin-top: 20px;
+    }
+    p:nth-child(even) {
+        background: #484848;
+    }
+</style>
